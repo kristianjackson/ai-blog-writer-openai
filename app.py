@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import config
+#import config
 import blog
 
 
@@ -8,7 +8,7 @@ def page_not_found(e):
 
 
 app = Flask(__name__)
-app.config.from_object(config.config['development'])
+#app.config.from_object(config.config['development'])
 
 app.register_error_handler(404, page_not_found)
 
