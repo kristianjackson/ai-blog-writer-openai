@@ -1,6 +1,6 @@
 import os
 import openai
-import config
+#import config
 
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
